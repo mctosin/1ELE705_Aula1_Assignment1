@@ -1,8 +1,9 @@
-/1ELE705_Aula1_Assignment1/Hello_World.out:
-	gcc /1ELE705_Aula1_Assignment1/Hello_World.c -o /1ELE705_Aula1_Assignment1/Hello_World.out
+test: clean Hello_World.o
+	bash test.sh
+
+Hello_World.o:
+	gcc Hello_World.c -o Hello_World.o
 
 clean:
-	rm /1ELE705_Aula1_Assignment1/Hello_World
-
-test: /1ELE705_Aula1_Assignment1/Hello_World.out
-	bash test.sh
+	rm -rf *.o *~ Hello_World
+	
