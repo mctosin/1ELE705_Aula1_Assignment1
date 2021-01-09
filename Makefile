@@ -4,5 +4,5 @@
 clean:
 	rm /1ELE705_Aula1_Assignment1/Hello_World
 
-test: a.out
+test: /1ELE705_Aula1_Assignment1/Hello_World.out
 	bash test.sh
