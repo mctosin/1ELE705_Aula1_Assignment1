@@ -1,7 +1,7 @@
 echo "Running tests..."
 echo
 
-output=$(./1ELE705_Aula1_Assignment1/Hello_World.out)
+output=$(./1ELE705_Aula1_Assignment1/Hello_World.o)
 expected_output="Hello World\n"
 
 if [ $? -eq 0 ] ; then
