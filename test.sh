@@ -1,8 +1,8 @@
 echo "Running tests..."
 echo
 
-output=$(./1ELE705_Aula1_Assignment1/Hello_World.out)
-expected_output="Hello World\n"
+output=$(./Hello_World.o)
+expected_output="Hello World"
 
 if [ $? -eq 0 ] ; then
   echo "Pass: Program exited zero"
