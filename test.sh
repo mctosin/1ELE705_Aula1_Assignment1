@@ -1,7 +1,7 @@
 echo "Running tests..."
 echo
 
-output=$(./Hello_World.o)
+output=$(./Hello_World)
 expected_output="Hello World"
 
 if [ $? -eq 0 ] ; then
